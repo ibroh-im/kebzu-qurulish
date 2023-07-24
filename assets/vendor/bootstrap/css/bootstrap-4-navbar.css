@@ -1,4 +1,6 @@
-
+html{
+    scroll-behavior: smooth;
+}
 /*=-====Bootstrapthemes.co btco-hover-menu=====*/
 
 .navbar-light .navbar-nav .nav-link {

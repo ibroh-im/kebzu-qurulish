@@ -3279,6 +3279,12 @@ a.toggle-menu{
     -webkit-animation: shine .75s;
     animation: shine .75s;
 }
+.card-height {
+    height: 350px;
+}
+.blog-card {
+    height: 210px;
+}
 @-webkit-keyframes shine {
 	100% {
 		left: 125%;
