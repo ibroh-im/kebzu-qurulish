@@ -3279,12 +3279,7 @@ a.toggle-menu{
     -webkit-animation: shine .75s;
     animation: shine .75s;
 }
-.card-height {
-    height: 350px;
-}
-.blog-card {
-    height: 210px;
-}
+
 @-webkit-keyframes shine {
 	100% {
 		left: 125%;
@@ -3437,4 +3432,49 @@ a.toggle-menu{
     border-right: 0 !important;
     border-left: 0 !important;
     border-radius: 0;
+}
+
+.blog-card {
+    height: 210px;
+}
+.blog-card1 {
+    height: 230px;
+}
+.icon-height {
+    font-size: 38px;
+}
+
+@media only screen and (max-width:320px) {
+    .card-height {
+        height: 150px !important;
+        object-fit: contain;
+    }
+}
+@media only screen and (max-width:460px) {
+    .card-height {
+        object-fit: contain;
+        height: 200px !important;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .icon-height{
+        font-size: 55px;
+    }
+    .map {
+        height: 400px;
+    }
+
+}
+@media only screen and (max-width:1024px) {
+.card-height {
+    height: 240px;
+    object-fit: contain;
+}
+}
+@media only screen and (min-width:1025px) {
+.card-height {
+    object-fit: contain;
+    height: 300px;
+}
 }
