@@ -3435,9 +3435,11 @@ a.toggle-menu{
 }
 
 .blog-card {
+    object-fit: cover;
     height: 210px;
 }
 .blog-card1 {
+    object-fit: cover;
     height: 230px;
 }
 .icon-height {
@@ -3447,12 +3449,12 @@ a.toggle-menu{
 @media only screen and (max-width:320px) {
     .card-height {
         height: 150px !important;
-        object-fit: contain;
+        object-fit: cover;
     }
 }
 @media only screen and (max-width:460px) {
     .card-height {
-        object-fit: contain;
+        object-fit: cover;
         height: 200px !important;
     }
 }
@@ -3469,12 +3471,12 @@ a.toggle-menu{
 @media only screen and (max-width:1024px) {
 .card-height {
     height: 240px;
-    object-fit: contain;
+    object-fit: cover;
 }
 }
 @media only screen and (min-width:1025px) {
 .card-height {
-    object-fit: contain;
+    object-fit: cover;
     height: 300px;
 }
 }
